@@ -75,7 +75,16 @@ li {
 /* Services Section Styles */
 #services {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start; /* Align items at the top of the container */
+    padding: 20px; /* Add some padding to separate the title from the cards */
+}
+
+.service-title {
+    width: 100%; /* Make sure the title spans the full width */
+    text-align: center; /* Center-align the title */
+    margin-bottom: 20px; /* Add some margin to space the title from the cards */
 }
 
 /* Service Card Styles */
