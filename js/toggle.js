@@ -11,3 +11,11 @@ toggleButtons.forEach(function(button) {
         toggleContent(button);
     });
 });
+
+
+<script>
+    document.querySelector('.cta-button').addEventListener('click', function () {
+        // Replace the '#' with the URL of your scheduling page
+        window.location.href = 'https://your-scheduling-page.com';
+    });
+</script>

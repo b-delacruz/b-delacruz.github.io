@@ -1,0 +1,105 @@
+/* about.css */
+
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    color: #555; /* Adjust text color to a more subtle shade */
+    line-height: 1.6;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#about h1 {
+    font-size: 36px;
+    color: #e30000;
+    font-family: "Times New Roman", serif; /* Unique font for the title */
+    text-align: center; /* Center-align the title */
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #555; /* Adjust text color */
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+#about h2 {
+    font-size: 28px;
+    color: #e30000;
+    font-family: "Helvetica Neue", sans-serif; /* Unique font for headings */
+    margin-top: 20px;
+}
+
+#about h2:first-child {
+    margin-top: 40px;
+}
+
+#about ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #555; /* Adjust text color */
+    margin-top: 15px;
+}
+
+/* Custom styles for different sections, headings, and content elements can be added as needed. Adjust colors, fonts, margins, and padding to your preferences. */
+
+/* Service Card Styles */
+.service-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 24px;
+    color: #e30000;
+    font-family: "Georgia", serif; /* Unique font for service card titles */
+    text-align: center; /* Center-align service card titles */
+    margin-top: 15px;
+}
+
+.service-card h4 {
+    font-size: 18px;
+    color: #e30000;
+    font-family: "Arial", sans-serif; /* Unique font for subheadings */
+    margin-top: 10px;
+}
+
+/* Button Styles */
+#call-button button {
+    background-color: #e30000;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    display: block; /* Ensure the button is a block element */
+    margin: 20px auto; /* Center-align the button */
+}
+
+#call-button button:hover {
+    background-color: #ff4d4d;
+}
+
