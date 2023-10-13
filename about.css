@@ -103,3 +103,36 @@ body {
     background-color: #ff4d4d;
 }
 
+/* Style for the fixed inline header */
+/* Header Styles */
+header {
+    background-color: #0077b6; /* Updated the header background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the navigation, aligning it to the top right */
+nav {
+    position: absolute;
+    top: 0;
+    right: 0; /* Align to the top right */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add other styles as needed */

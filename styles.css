@@ -324,3 +324,25 @@ li {
     margin-top: 20px; /* Added margin to separate the brand message from the content */
 }
 
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0; /* Align to the top right */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
