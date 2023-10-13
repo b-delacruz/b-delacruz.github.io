@@ -186,3 +186,16 @@ li {
     background-color: #ff4d4d;
     /* Add more styles as needed */
 }
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.value-prop, .expectations {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Add further styling as needed */
