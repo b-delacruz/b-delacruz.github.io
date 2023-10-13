@@ -83,8 +83,12 @@ li {
 
 .service-title {
     width: 100%; /* Make sure the title spans the full width */
-    text-align: center; /* Center-align the title */
+    text-align: ; /* Center-align the title */
     margin-bottom: 20px; /* Add some margin to space the title from the cards */
+    font-size: 24px;
+    color: #e30000;
+    margin-bottom: 10px;
+    
 }
 
 /* Service Card Styles */
@@ -106,6 +110,48 @@ li {
 
 /* H4 Styles for "What You Get" Headings */
 .service-card h4 {
+    color: #e30000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#past {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top of the container */
+    padding: 20px; /* Add some padding to separate the title from the cards */
+}
+
+.past-title {
+    width: 100%; /* Make sure the title spans the full width */
+    text-align: ; /* Center-align the title */
+    margin-bottom: 20px; /* Add some margin to space the title from the cards */
+    font-size: 24px;
+    color: #e30000;
+    margin-bottom: 10px;
+    
+}
+
+/* Service Card Styles */
+.past-card {
+    flex: 0 0 calc(25% - 20px); /* 25% width for each card with margin in between */
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* H3 Styles for Service Card Titles */
+.past-card h3 {
+    font-size: 24px;
+    color: #e30000;
+    margin-bottom: 10px;
+}
+
+/* H4 Styles for "What You Get" Headings */
+.past-card h4 {
     color: #e30000;
     font-weight: bold;
     margin-top: 10px;
