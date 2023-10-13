@@ -1,42 +1,58 @@
 /* styles.css */
 
-/* Reset default margin and padding for all elements */
+/* Reset some default styles for consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Set a universal font family for consistency */
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Soft gray background color */
+    color: #333; /* Text color (dark gray) */
+    line-height: 1.6;
 }
 
 /* Header Styles */
 header {
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: #e30000; /* Deep red background color */
     color: #fff; /* Text color (white) */
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
 /* H1 Styles */
 header h1 {
-    font-size: 48px; /* Increase the font size for the header */
-    text-transform: uppercase; /* Uppercase text */
+    font-size: 36px;
+}
+
+/* P Styles */
+header p {
+    font-size: 18px;
+}
+
+#services-heading {
+    background: none; /* Remove background */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    color: #e30000; /* Highlighted text color (deep red) */
 }
 
 /* Section Styles */
 section {
     padding: 20px;
+    background-color: #fff; /* White background color */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 
 /* H2 Styles */
 h2 {
-    color: #1a1a1a; /* Dark gray text color */
-    font-size: 24px; /* Increase the font size for section headings */
-    margin-bottom: 10px; /* Add space below headings */
+    color: #e30000; /* Deep red text color */
+    font-size: 24px;
 }
 
 /* Unordered List Styles */
@@ -48,16 +64,99 @@ ul {
 /* List Item Styles */
 li {
     margin-bottom: 10px; /* Add space between list items */
+    font-size: 16px;
+}
+
+/* Strong Styles (for important text) */
+strong {
+    color: #e30000; /* Deep red text color */
+    font-weight: bold;
+}
+
+/* Anchor Styles (for links) */
+a {
+    color: #e30000; /* Deep red text color for links */
+    text-decoration: none;
+}
+
+/* Button Styles */
+button {
+    background-color: #e30000; /* Deep red background color for buttons */
+    color: #fff; /* Text color (white) for buttons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #1a1a1a; /* Dark background color */
-    color: #fff; /* Text color (white) */
+    background-color: #f4f4f4; /* Soft gray background color */
+    color: #333; /* Text color (dark gray) */
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow at the top */
+}
+
+/* Add these styles to your existing CSS or customize as needed */
+
+.service-card {
+    background-color: #fff; /* White background color for the service card */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.service-card h3 {
+    font-size: 24px; /* Increase the font size for the service name */
+    color: #e30000; /* Highlighted text color (deep red) */
+    margin-bottom: 20px;
+}
+
+.expect,
+.get {
+    margin: 20px 0;
+}
+
+.expect h4,
+.get h4 {
+    color: #e30000; /* Deep red text color for dropdown headings */
+    font-weight: bold;
+}
+
+.expect ul,
+.get ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.expect li,
+.get li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Add a pointer cursor to indicate that the section is clickable */
+.service-card .expect {
+    cursor: pointer;
+}
+
+/* Initially hide the content in the "What You Can Expect" section */
+.service-card .expect ul {
+    display: none;
+}
+
+/* Style for the active (open) state */
+.service-card.active .expect ul {
+    display: block;
+}
+
+/* Add hover effect to the clickable section */
+.service-card .expect:hover {
+    background-color: #f0f0f0; /* Change to your desired background color */
 }

@@ -8,6 +8,7 @@
     <meta name="description" content="Your description here">
     <title>Your Personal Brand</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="js/toggle.js"></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -44,90 +45,77 @@
         </ul>
     </section>
 
-    <!-- Services Section -->
+
     <section id="services">
         <h2>Services</h2>
-        <ul>
-            <li>
-                Business Strategy Consulting - What You Can Expect:
+    
+        <!-- Service Card 1 -->
+        <div class="service-card">
+            <h3>Business Strategy Consulting</h3>
+            <div class="expect" onclick="toggleContent(this)">
+                <h4>What You Can Expect:</h4>
                 <ul>
-                    <li>1st Session: Strategy Development
-                        <ul>
-                            <li>In the first session, we sit down with you to understand your business needs.</li>
-                            <li>We start strategizing and come up with actionable next steps.</li>
-                            <li>We believe in implementing solutions right away to test their effectiveness.</li>
-                        </ul>
-                    </li>
-                    <li>2nd Session: Review and Goal Setting
-                        <ul>
-                            <li>During the second session, we review what's working and what isn't. We also sit down to understand your goals.</li>
-                            <li>We work together to create new goals, redefine success metrics, and define the next action steps.</li>
-                        </ul>
-                    </li>
-                    <li>3rd Session: Process Review and Handoff
-                        <ul>
-                            <li>In the third session, we reassess the progress to ensure it aligns with your vision.</li>
-                            <li>We conduct a thorough review of the process we've created to reach your goals.</li>
-                            <li>As a deliverable, we hand off the process to your team, providing you with a sustainable framework.</li>
-                        </ul>
-                    </li>
-                    <li>What You Get:
-                        <ul>
-                            <li>Expert advice and consultancy to guide your business.</li>
-                            <li>Project management support to ensure seamless execution.</li>
-                            <li>A tailored growth PROCESS that aligns with your unique business needs and goals.</li>
-                        </ul>
-                    </li>
+                    <li>1st Session: Strategy Development</li>
+                    <li>In the first session, we sit down with you to understand your business needs.</li>
+                    <li>We start strategizing and come up with actionable next steps. Our philosophy is to implement solutions right away and test their effectiveness immediately.</li>
                 </ul>
-            </li>
-            <li>
-                Creative Problem Solving - What You Can Expect:
+            </div>
+            <div class="get">
+                <h4>What You Get:</h4>
                 <ul>
-                    <li>Strategic Partnership: Imagine me as your dedicated partner in navigating complex challenges and fostering innovation. I'll be right there with you, providing the insights and guidance you need.</li>
-                    <li>High-Impact Consulting: You're not just getting answers; you're gaining access to high-level, practical business advice. Feel free to ask your questions, and I'll provide expert insights tailored to your unique situation.</li>
-                    <li>Versatility: Whether you're a creative professional or a small business, I'm equipped to help you tackle daily challenges head-on. I'm your go-to resource for creative problem solving.</li>
+                    <li>Expert advice and consultancy to guide your business.</li>
+                    <li>Project management support to ensure seamless execution.</li>
+                    <li>A tailored growth PROCESS that aligns with your unique business needs and goals.</li>
+                    <!-- Add more "What You Get" points here as needed -->
                 </ul>
-                <li>What You Get:
-                    <ul>
-                        <li>Direct Access to Expertise: Enjoy the privilege of direct access to my expertise. This means you're never alone when confronting complex issues or seeking innovative solutions.</li>
-                        <li>Effective Project Management: Beyond advice, I provide project management support to ensure that your unique projects are executed seamlessly. Your success is my priority.</li>
-                        <li>Tailored Solutions: Our process is designed to align precisely with your specific needs. It's not a one-size-fits-all approach; it's a customized strategy that fuels innovation and tackles your challenges effectively.</li>
-                    </ul>
-                </li>
-            </li>
-            <li>
-                Growth Strategies (Personal and Business) - What You Can Expect:
+            </div>
+        </div>  
+
+        <!-- Service Card 3 -->
+        <div class="service-card">
+            <h3>Growth Strategies (Personal and Business)</h3>
+    
+            <div class="expect">
+                <h4>What You Can Expect:</h4>
                 <ul>
                     <li>Follow-Up Conversation (30 minutes): After our initial talk about your goals, dreams, aspirations, or ideas, we also schedule our next meeting.</li>
                     <li>I go home and do my homework: research, brainstorm, and ideate.</li>
                     <li>1-Hour Planning Session: We meet to address your specific needs and design a clear, personalized 'Action Plan' that fits your unique needs.</li>
                     <li>1-Hour Implementation Meeting: To ensure you're ready to implement your plan, I provide guidance and support as you take the next steps.</li>
                 </ul>
-                <li>What You Get:
-                    <ul>
-                        <li>Tangible Outcomes: I come in and help your business take action. The assessment conducted evolves into a structured Action Plan, a valuable resource for both organizations and individuals to take the next step. Our commitment lies in delivering clearly defined and tangible outcomes.</li>
-                    </ul>
-                </li>
-            </li>
-            <li>
-                Career Consulting - What You Can Expect:
+            </div>
+    
+            <div class="get">
+                <h4>What You Get:</h4>
+                <ul>
+                    <li>Tangible Outcomes: I come in and help your business take action. The assessment conducted evolves into a structured Action Plan, a valuable resource for both organizations and individuals to take the next step. Our commitment lies in delivering clearly defined and tangible outcomes.
+                </ul>
+            </div>
+        </div>   
+        
+        <!-- Service Card 4 -->
+        <div class="service-card">
+            <h3>Career Consulting</h3>
+    
+            <div class="expect">
+                <h4>What You Can Expect:</h4>
                 <ul>
                     <li>Initial Consultation (30 minutes): In our first discussion, we explore your career aspirations, challenges, objectives, and offer an optional resume review.</li>
-                    <li>Career Strategy Development:
-                        <ul>
-                            <li>Personalized Guidance (1 hour): We'll work together to create a clear, personalized career plan that fits your unique journey. I provide one follow-up meeting for support.</li>
-                            <li>Follow-Up Session (30 minutes): In this session, we set new career objectives, redefine success measures, and establish clear next steps.</li>
-                        </ul>
-                    </li>
-                    <li>What You Get:
-                        <ul>
-                            <li>Professional Guidance: You receive dedicated guidance for your career aspirations, challenges, and goals.</li>
-                        </ul>
-                    </li>
+                    <li>Career Strategy Development:</li>
+                    <li>Personalized Guidance (1 hour): We'll work together to create a clear, personalized career plan that fits your unique journey. I provide one follow-up meeting for support.</li>
+                    <li>Follow-Up Session (30 minutes): In this session, we set new career objectives, redefine success measures, and establish clear next steps.</li>
                 </ul>
-            </li>
-        </ul>
-    </section>
+            </div>
+    
+            <div class="get">
+                <h4>What You Get:</h4>
+                <ul>
+                    <li>Professional Guidance: You receive dedicated guidance for your career aspirations, challenges, and goals.</li>
+                </ul>
+            </div>
+        </div>   
+    
+
     <section id="worked-on">
         <h2>Things I've Worked On</h2>
         <ul>
