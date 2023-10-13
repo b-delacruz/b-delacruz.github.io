@@ -198,4 +198,29 @@ li {
     padding: 20px;
 }
 
-/* Add further styling as needed */
+/* Style for the Work With Me Section */
+.work-with-me {
+    text-align: center; /* Center align the content */
+}
+
+/* Style for each entry card */
+.entry {
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px; /* Add margin to separate the cards */
+    display: inline-block; /* Display entries horizontally */
+    width: 300px; /* Set a fixed width for each card */
+    text-align: left; /* Left-align the content inside the card */
+}
+
+/* Style for images inside the cards */
+.entry img {
+    max-width: 100%; /* Make sure images don't exceed the card width */
+}
+
+/* Style for the title */
+.entry p:first-child {
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 10px; /* Add space below the title */
+}
