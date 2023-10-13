@@ -75,13 +75,12 @@ li {
 /* Services Section Styles */
 #services {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 /* Service Card Styles */
 .service-card {
-    flex: 0 0 calc(50% - 20px);
+    flex: 0 0 calc(25% - 20px); /* 25% width for each card with margin in between */
     margin: 10px;
     padding: 20px;
     background-color: #fff;
@@ -89,12 +88,14 @@ li {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* H3 Styles for Service Card Titles */
 .service-card h3 {
     font-size: 24px;
     color: #e30000;
     margin-bottom: 10px;
 }
 
+/* H4 Styles for "What You Get" Headings */
 .service-card h4 {
     color: #e30000;
     font-weight: bold;
