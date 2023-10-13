@@ -172,3 +172,17 @@ li {
     /* Add more styles as needed */
 }
 
+#schedule-call {
+    background-color: #e30000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#schedule-call:hover {
+    background-color: #ff4d4d;
+    /* Add more styles as needed */
+}
