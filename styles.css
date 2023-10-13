@@ -31,9 +31,31 @@ header p {
     font-size: 18px;
 }
 
+/* Add this CSS to your existing styles */
+
+.pricing {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd; /* Add a horizontal line above the "Pricing" section */
+}
+
+.pricing h3 {
+    font-size: 20px;
+    color: #e30000;
+    margin-bottom: 10px;
+}
+
+.pricing ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+
 /* Service Card Toggle Button Styles */
 .service-toggle {
-    background-color: #e30000;
+    background-color: #181818;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -208,13 +230,14 @@ li {
 
 .work-title {
     width: 100%; /* Make sure the title spans the full width */
-    text-align: ; /* Center-align the title */
+    text-align:center ; /* Center-align the title */
     margin-bottom: 20px; /* Add some margin to space the title from the cards */
     font-size: 24px;
     color: #e30000;
     margin-bottom: 10px;
     
 }
+
 
 /* Service Card Styles */
 .work-card {
@@ -278,3 +301,27 @@ li {
     border-bottom: 1px solid #ddd;
     margin-top: 10px;
 }
+
+
+.call-button {
+    text-align: center; /* Center-align the button */
+}
+
+.call-button button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.call-button button:hover {
+    background-color: #005ea7; /* Change color on hover */
+    /* Add more styles as needed */
+}
+
+/* Add this CSS to your existing styles */
+
+
